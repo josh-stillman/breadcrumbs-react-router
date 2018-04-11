@@ -38,14 +38,14 @@ class App extends Component {
       <Router>
       <div>
         <NavBar nav={this.state.nav} rollBackNavBar={this.rollBackNavBar}/>
-        <br/><br/>
-        <Route path="/first" render={() => <First addToNavBar={this.addToNavBar} />} />
-        <Route path="/second" render={() => <Second addToNavBar={this.addToNavBar} />}/>
-        <Route path="/third" render={() => <Third addToNavBar={this.addToNavBar} />}/>
+          <br/><br/>
+          <Route path="/first" render={() => <First addToNavBar={this.addToNavBar} />} />
+          <Route path="/second" render={() => <Second addToNavBar={this.addToNavBar} />}/>
+          <Route path="/third" render={() => <Third addToNavBar={this.addToNavBar} />}/>
         </div>
     </Router>
     );
   }
 }
-        //<Route path="/home" component={Home} />
+
 export default App;

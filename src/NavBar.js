@@ -20,16 +20,3 @@ return (<Breadcrumb size="massive">
 }
 
 export default NavBar
-//
-// props.nav.map(view => <div><Breadcrumb.Section as={NavLink} onClick={() => alert("hello")} to={view[0]}>{view[1]}</Breadcrumb.Section>
-// <Breadcrumb.Divider /></div>
-// )}
-
-
-
-//
-// <Breadcrumb.Section as={NavLink} to="/first">First</Breadcrumb.Section>
-// <Breadcrumb.Divider />
-// <Breadcrumb.Section as={NavLink} to="/second">Second</Breadcrumb.Section>
-// <Breadcrumb.Divider />
-// <Breadcrumb.Section as={NavLink} to="/third">Third</Breadcrumb.Section>

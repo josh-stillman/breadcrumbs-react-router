@@ -6,9 +6,7 @@ const Third = (props) => {
 
   return (<div>
   <h1>Choose a Location</h1>
-  <Link to="/first">
-  <Button onClick={props.sayHello}>Neil's house</Button>
-  </Link>
+    <Button onClick={() => alert("Hooray, party at Neil's house and the offial color is yellow!!!!!!!")}>Neil's house</Button>
   </div>)
 }
 
